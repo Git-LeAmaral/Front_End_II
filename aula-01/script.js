@@ -10,8 +10,10 @@
 
 // console.log( window.prompt('Bem vindo!') );
 
-var userName = window.prompt('Bem vindo!');
-const welcomeMessage = 'Olá' + userName
+var userName = window.prompt('Olá, qual seu nome?');
+var userAge = window.prompt('Qual sua idade?');
+var userJob = window.prompt('Qual seu trabalho');
+const welcomeMessage = ' Olá me meu nome é ' + userName;
 
 console.log(welcomeMessage);
 

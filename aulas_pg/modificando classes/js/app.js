@@ -1,0 +1,1 @@
+let changeMode = document.body.classList.toggle('darkMode');
