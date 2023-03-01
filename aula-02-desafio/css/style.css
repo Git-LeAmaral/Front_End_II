@@ -80,5 +80,55 @@ section .escolha {
   gap: 20px;
 }
 
-                                    /* jogada.html */
+ /* jogada.html */
+
+ section #display-jogada {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  background-color: #ec8510;
+} 
+
+.hide {
+  display: none;
+}
+
+#display-jogada .jogadas {
+  width: 130px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+}
+
+#display-jogada .jogadas img {
+  width: 95px;
+  height: 95px;
+}
+
+#display-jogada .score {
+  width: 130px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#display-jogada .score .btns-game a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bb2;
+}
+
 
